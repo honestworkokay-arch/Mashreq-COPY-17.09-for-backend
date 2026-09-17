@@ -1,0 +1,770 @@
+Command line invocation:
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/usr/bin/xcodebuild -project MashreqApp.xcodeproj -scheme MashreqApp -sdk iphonesimulator -destination "generic/platform=iOS Simulator" -derivedDataPath QA/account-collapsing-header-2026-09-02/DerivedData-compile-only CODE_SIGNING_ALLOWED=NO build
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+    SDKROOT = iphonesimulator26.5
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'MashreqApp' in project 'MashreqApp' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode-26.6-Final.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets
+
+ExecuteExternalTool /Applications/Xcode-26.6-Final.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: 30a56b5692ba95d44c4552c75011ab51
+Build description path: /Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/XCBuildData/30a56b5692ba95d44c4552c75011ab51.xcbuilddata
+ClangStatCache /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448f283584bf7b6f8d8b4a477ee9f70d2b0c.sdkstatcache
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp.xcodeproj
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -o /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448f283584bf7b6f8d8b4a477ee9f70d2b0c.sdkstatcache
+
+CreateBuildDirectory /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp.xcodeproj
+    builtin-create-build-directory /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex
+
+CreateBuildDirectory /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp.xcodeproj
+    builtin-create-build-directory /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products
+
+CreateBuildDirectory /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp.xcodeproj
+    builtin-create-build-directory /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator
+
+CreateBuildDirectory /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/ExplicitPrecompiledModules
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp.xcodeproj
+    builtin-create-build-directory /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp.xcodeproj
+    builtin-create-build-directory /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp.xcodeproj
+    builtin-create-build-directory /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+
+WriteAuxiliaryFile /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp-31129cda69f898f2893241d530cc5272-VFS-iphonesimulator/all-product-headers.yaml
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp.xcodeproj
+    write-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp-31129cda69f898f2893241d530cc5272-VFS-iphonesimulator/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.SwiftConstValuesFileList (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.SwiftFileList (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.SwiftFileList
+
+WriteAuxiliaryFile /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.LinkFileList (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.LinkFileList
+
+WriteAuxiliaryFile /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp_const_extract_protocols.json (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.SwiftFileList (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.SwiftFileList
+
+WriteAuxiliaryFile /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp_const_extract_protocols.json (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp-OutputFileMap.json (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.SwiftConstValuesFileList (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.LinkFileList (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.LinkFileList
+
+WriteAuxiliaryFile /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp-OutputFileMap.json (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp.hmap (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp.hmap
+
+WriteAuxiliaryFile /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp.DependencyStaticMetadataFileList (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp.DependencyMetadataFileList (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-project-headers.hmap (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-project-headers.hmap
+
+WriteAuxiliaryFile /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-own-target-headers.hmap (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-generated-files.hmap (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-generated-files.hmap
+
+WriteAuxiliaryFile /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-all-target-headers.hmap (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-DebugDylibPath-normal-x86_64.txt (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-DebugDylibPath-normal-x86_64.txt
+
+WriteAuxiliaryFile /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-all-non-framework-target-headers.hmap (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-DebugDylibPath-normal-arm64.txt (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-DebugDylibPath-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-DebugDylibInstallName-normal-x86_64.txt (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-DebugDylibInstallName-normal-x86_64.txt
+
+WriteAuxiliaryFile /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-DebugDylibInstallName-normal-arm64.txt (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-DebugDylibInstallName-normal-arm64.txt
+
+MkDir /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /bin/mkdir -p /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app
+
+MkDir /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_output/thinned (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /bin/mkdir -p /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_output/thinned
+
+Ld /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/Binary/__preview.dylib normal x86_64 (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios17.0-simulator -dynamiclib -isysroot /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator -F/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator -install_name @rpath/MashreqApp.debug.dylib -Xlinker -dead_strip -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp_dependency_info.dat -o /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/Binary/__preview.dylib
+
+MkDir /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_output/unthinned (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /bin/mkdir -p /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_output/unthinned
+
+Ld /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/Binary/__preview.dylib normal arm64 (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -dynamiclib -isysroot /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator -F/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator -install_name @rpath/MashreqApp.debug.dylib -Xlinker -dead_strip -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp_dependency_info.dat -o /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/Binary/__preview.dylib
+
+CpResource /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app/29LTBukra-SemiBold.ttf /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Fonts/29LTBukra-SemiBold.ttf (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Fonts/29LTBukra-SemiBold.ttf /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app
+
+GenerateAssetSymbols /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Assets.xcassets (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/usr/bin/actool /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Assets.xcassets --compile /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app --output-format human-readable-text --notices --warnings --export-dependency-info /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_dependencies --output-partial-info-plist /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_generated_info.plist --app-icon AppIcon --accent-color AccentColor --compress-pngs --enable-on-demand-resources YES --development-region en --target-device iphone --minimum-deployment-target 17.0 --platform iphonesimulator --bundle-identifier com.madina.mashreqdemo --generate-swift-asset-symbols /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/GeneratedAssetSymbols.swift --generate-objc-asset-symbols /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/GeneratedAssetSymbols.h --generate-asset-symbol-index /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/* com.apple.actool.compilation-results */
+/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/GeneratedAssetSymbols.h
+/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/GeneratedAssetSymbols.swift
+
+
+CpResource /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app/29LTBukra-Regular.ttf /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Fonts/29LTBukra-Regular.ttf (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Fonts/29LTBukra-Regular.ttf /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app
+
+CpResource /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app/29LTBukra-Medium.ttf /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Fonts/29LTBukra-Medium.ttf (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Fonts/29LTBukra-Medium.ttf /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app
+
+CpResource /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app/29LTBukra-Light.ttf /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Fonts/29LTBukra-Light.ttf (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Fonts/29LTBukra-Light.ttf /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app
+
+CpResource /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app/29LTBukra-Bold.ttf /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Fonts/29LTBukra-Bold.ttf (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Fonts/29LTBukra-Bold.ttf /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app
+
+CompileAssetCatalogVariant thinned /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Assets.xcassets (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/usr/bin/actool /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Assets.xcassets --compile /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_output/thinned --output-format human-readable-text --notices --warnings --export-dependency-info /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_dependencies_thinned --output-partial-info-plist /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_generated_info.plist_thinned --app-icon AppIcon --accent-color AccentColor --compress-pngs --enable-on-demand-resources YES --development-region en --target-device iphone --minimum-deployment-target 17.0 --platform iphonesimulator
+/* com.apple.actool.compilation-results */
+/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_generated_info.plist_thinned
+/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_output/thinned/AppIcon60x60@2x.png
+/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_output/thinned/AppIcon76x76@2x~ipad.png
+/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_output/thinned/Assets.car
+
+
+CreateUniversalBinary /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app/__preview.dylib normal arm64\ x86_64 (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/Binary/__preview.dylib /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/Binary/__preview.dylib -output /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app/__preview.dylib
+
+SwiftDriver MashreqApp normal arm64 com.apple.xcode.tools.swift.compiler (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-SwiftDriver -- /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name MashreqApp -Onone @/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator -F /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448f283584bf7b6f8d8b4a477ee9f70d2b0c.sdkstatcache -output-file-map /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex -sdk-module-cache-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp_const_extract_protocols.json -Xcc -iquote -Xcc /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-generated-files.hmap -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-own-target-headers.hmap -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-all-target-headers.hmap -Xcc -iquote -Xcc /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-project-headers.hmap -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources-normal/arm64 -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/arm64 -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp-Swift.h -working-directory /Users/macbookpro/Desktop/Mashreq\ /MashreqApp -experimental-emit-module-separately -disable-cmo
+
+SwiftDriver MashreqApp normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-SwiftDriver -- /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name MashreqApp -Onone @/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target x86_64-apple-ios17.0-simulator -g -module-cache-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator -F /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448f283584bf7b6f8d8b4a477ee9f70d2b0c.sdkstatcache -output-file-map /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex -sdk-module-cache-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp_const_extract_protocols.json -Xcc -iquote -Xcc /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-generated-files.hmap -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-own-target-headers.hmap -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-all-target-headers.hmap -Xcc -iquote -Xcc /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-project-headers.hmap -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources-normal/x86_64 -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/x86_64 -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp-Swift.h -working-directory /Users/macbookpro/Desktop/Mashreq\ /MashreqApp -experimental-emit-module-separately -disable-cmo
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_AvailabilityInternal-W93HU02S69E7ZVRREWGMN1TN.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_Builtin_stddef-561E4ZL8E9P1J6MTPWFUSGNEB.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/ptrcheck-AWWN8TVI8NCYA6ZNID1AKWW8N.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_Builtin_stdbool-CJLPTRB5IZ6L3DBVEJPB8QOQ2.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_SwiftConcurrencyShims-39SN6Q5BAU0Y0MC8SUVWPKHAN.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_Builtin_stdarg-DG4T2N7SQV3ZVG8513WJSZWGK.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/ptrauth-9420NR4YV704L6IBZNJQJDNHL.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_Builtin_stdbool-A54BR63LWK0T0I29RAS4K1OSV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_Builtin_stdarg-6DLZ5OVY3C4J51SKNEGAWGRSG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_AvailabilityInternal-76NG61NTMHPXZ7EL6K4ITYFX.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/ptrcheck-5JPEOM85FN7XZKMRKO8OLR059.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/DeveloperToolsSupport-31L7AOXVFUPQ64427DMQ4W3V7.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_Builtin_float-DSN7EK327E0ZZ6Y6J8EVBLKE1.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_SwiftConcurrencyShims-B84PQM2GWTOAPFR7EZH3OBVA1.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_Builtin_stddef-CGSUXV04DADLG3M4U23I1WYAG.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_DarwinFoundation1-5HXER3H7M76B8FYW50FPJV9OL.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_Builtin_float-DGI49N0LTM1CBW1I4KZ8B5VCM.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/SwiftShims-E57IX74V092VYM2DEK1P9O16R.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/SwiftShims-15N8EH4HRXLT4S92PPPGYMLFL.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/DeveloperToolsSupport-A9WWSI71LUAWRX9KQZOZ74W4I.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_DarwinFoundation1-9I8R3KDKW37KFZIVY5IRO6QQ3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/ptrauth-C6TI0SQXBY9F00EE018D42OGW.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_Builtin_limits-AKBXKYXXP9GZ9CD1VDVL3B6WF.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_DarwinFoundation2-2V4FW6RT0411R7W6RQ7F7M74C.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_Builtin_limits-2I8A3QEON1UKBGY67GFJOQ3XC.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_DarwinFoundation2-9R3ZDRNYHMWZ6FLX2HVJSRO2D.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_Builtin_stdint-6V2PKZTWVC4FI1UWJESPTIJEN.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/sys_types-7S6013D9RY2HV8LXZDY88GE0C.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_Builtin_tgmath-BT0MMC17NZ39C4WVGAUNF02V0.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_Builtin_stdint-F539FYEV2PEKXE98ONYCDEJQV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/sys_types-A5LHPV3DNIFE7NLHT7DSPB5IP.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_Builtin_tgmath-7QU5QHSJFKWJA9R7BPFJZ8R0X.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_DarwinFoundation3-B08PC8W8ZA28HSUEDEAZP76B3.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_Builtin_stdatomic-7LNVWV4M7N1HURBKU53IVLDSG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_Builtin_stdatomic-2EYUOBCSJNPPC7BFPCLZ6BWK4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_Builtin_intrinsics-CPIN57VLRRQVSKC81EE5N5X5Y.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_DarwinFoundation3-6R5IKYHTTV3GDTJSVV0YR4TPV.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_Builtin_intrinsics-2YVCAKSZ6607NJ7DJDWUTG6XJ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_Builtin_inttypes-771M08CFIT0XCE01Z9SKTCFLV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/_Builtin_inttypes-6B9BPN0LD7KR33GAHCQHKYCB8.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/Darwin-66XPI8G5XVKZZNHJ66OHX97Q2.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/Darwin-5ASH99PF6DLX4BXS0T39GAJZ3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/simd-2SDTOE5YWGE37ESLSK7N9R2YR.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/ObjectiveC-6NZ2JVZMA1DSLP7YUM9ELVNFN.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/MachO-EMOYMETCDDGYZFOQN978ZXYJO.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/MachO-C4788NFEKVPDQ7BVOK8FG5D7.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/ObjectiveC-71ARMTX15NE0GRSTUX5ZNLK7V.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/os_object-8E32WDGR86A0S7YIBUILAS0VF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/os_object-BMO5TFN3UO1XE6A96C5IHZEY6.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/os_workgroup-A9DPVRDFC8PK77U7U4V2SANBT.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/os_workgroup-6M3QZGC4CSJOS3KNWFXM4ID72.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/Dispatch-5EOJQVUQ0GSHEPBZLBMCVLKIC.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/Dispatch-2BMSBMQDCOX06A8RKN0FARGYQ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/CoreFoundation-2WYHE37UWUEEGRI7LGBJYZVDP.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/XPC-C549KN331RQTSY2ITYO79O28M.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/XPC-X5Y4INMML5JBFC251D1VOYMV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/CoreFoundation-1ZNVC489EVLVVM9F087OMK1TG.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/simd-A3HMYYRUVP7Y5N2XQYW9B97R7.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/os-DBI691F93087GCYC991AMKMFD.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/os-9JZ4H9BBF0QGALZ0S10ELXWCU.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/CFNetwork-55KGZ1UR652RWMFDMHQYNKKZ3.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/CoreGraphics-62ZV3RR443S8FQZYJLCDBCYKZ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/Security-C2AOYLRVK8HD042X20OO7LNYE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/Security-8A9ZLP0UUR64ENFOPC9WTF5OV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/CoreGraphics-CS084GRL1JS5FGUOF2E24N3O0.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/CFNetwork-ESLDU0ZBDSTGJOZ8GBLY487FO.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/Foundation-1MHMDUCW04ZWXF6TLTRT1LQPQ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/ImageIO-5L4S7CDUVEHJ0S1TFHUKLVZE1.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/CoreText-D5Y50019PYRD6QALP0IL9INGS.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/Foundation-EBL3V2IM2FL1ZRQ0K5C9UW222.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/CoreText-60L07IU9WHU5FF3GT7C114SFH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/ImageIO-B794PY64JUTA9XZN8YIZ853EE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/Spatial-EUIGTJ4AAVRPRCOCO3MDGNCT6.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/Symbols-4X3DDGQDS55YZG36K5HTIM1J5.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/OpenGLES-EEO81DE53LKNZRRHRPRWXV1C0.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/IOSurface-1BMODS33SCL3Y1TGTJHIY2M9X.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/LocalAuthentication-5OFX48IPYGSMEFPOOEB8AA8C1.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/FileProvider-5VDW9XPVMKTK0IEGAFQ9VDQWN.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/Metal-A4FYSZF5LCUE01AOIQQ7F0WJ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/UIUtilities-A62UFEO3DE66NPWQ6K1LIIS1Y.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/CoreTransferable-EWYYWPMP5G2XLVB0DM5VSUQKW.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/UIUtilities-ECCK1KJ9Z1RD6B9AZC8IG6XGX.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/FileProvider-A44DAYRKW7FBG7WD4XFM4ECW1.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/LocalAuthentication-24FDK4HHLIH6XMM4ZM6NZMENQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/Accessibility-2C0G1LTT7LBT3DZ55M8GRHIUC.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/CoreData-89SQRFK7VBQB7ZQJEWLHZWJK6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/CoreTransferable-BI4INZI4JUKSIWZZ9O733911O.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/OpenGLES-BPJ9GDYUUC9Z849NXT87CQ9QP.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/UniformTypeIdentifiers-AKCAXDXCWQB7GXVNNW6MGY3DI.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/DataDetection-9CUEYYH3XIFHK52MXA9J60LHX.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/Accessibility-CYD67MTPIW3M9WTJHCI03YN4V.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/Spatial-7P1E6SYMVH8TC09RWC5MGWVY5.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/CoreVideo-402ZMV7XDMAL70LGR1S1NZQK9.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/UniformTypeIdentifiers-SXGTA90A5N41NF9P3R75YXGX.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/OSLog-6OR9TTH5YFDI783FEARXHA9KY.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/UserNotifications-6HLE1ZSG87FR9I1J41HB6NVMC.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/OSLog-6IFWFL7YLHQ8UPKIUAINRXH5L.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/IOSurface-CB5KXHAFP66WCXH2FD2S3ZA97.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/DataDetection-77QBY7JK05IGQNXCZ223KYHSB.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/Symbols-4GCHAKFGYOBQAVOCYK1V9YG61.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/QuartzCore-DUT4UZF4S6VZ7YKJ2PPYK684H.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/CoreImage-1TYKWGQ0TEGYLM2M785GCBC33.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/UserNotifications-EN7G0CVDVA9TJNJ5QNUHAIS7U.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/CoreData-CRFO4LIB0CV79GODG8GQ44GPE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/Metal-8A3TNOT087I7855DX9PWRHW8F.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/SwiftUICore-55ETGY5X05E9US5I3WI020LNZ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/UIKit-8KQ7J8QPFMKMH0BJ1GQ4B00YD.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/CoreVideo-EQXWUC5T0SRWJIZWSY45YAAKU.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/CoreImage-EYDVGYL4O1XP77P4C4AI5B5J1.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/QuartzCore-6ZZW8QWTV7CZ9CAH1BSIJ47SZ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/SwiftUICore-B05KTR07ODKI75QQAH2EXGHHB.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/UIKit-1L6SMHDI471O0P47G5O9RQKAG.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/SwiftUI-72KNHE07LV6J9SVRNKOFPEH0S.pcm
+
+SwiftCompile normal x86_64 Compiling\ DemoModels.swift,\ AccountsViews.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Models/DemoModels.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/AccountsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+SwiftCompile normal x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Models/DemoModels.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/AccountsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftEmitModule normal x86_64 Emitting\ module\ for\ MashreqApp (in target 'MashreqApp' from project 'MashreqApp')
+
+EmitSwiftModule normal x86_64 (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal x86_64 Compiling\ AppRootView.swift,\ MashreqApp.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/App/AppRootView.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/App/MashreqApp.swift (in target 'MashreqApp' from project 'MashreqApp')
+SwiftCompile normal x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/App/AppRootView.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/App/MashreqApp.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal x86_64 Compiling\ SupportViews.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/SupportViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+SwiftCompile normal x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/SupportViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal x86_64 Compiling\ LoginView.swift,\ MoreView.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/LoginView.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/MoreView.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftCompile normal x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/LoginView.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/MoreView.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal x86_64 Compiling\ MashreqComponents.swift,\ MashreqTheme.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Components/MashreqComponents.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/DesignSystem/MashreqTheme.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftCompile normal x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Components/MashreqComponents.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/DesignSystem/MashreqTheme.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal x86_64 Compiling\ OverviewView.swift,\ PaymentsViews.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/OverviewView.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/PaymentsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftCompile normal x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/OverviewView.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/PaymentsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/SwiftUI-3N5JOO192YDZQ3ISQXM25YL2X.pcm
+
+SwiftDriverJobDiscovery normal x86_64 Emitting module for MashreqApp (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftDriver\ Compilation\ Requirements MashreqApp normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name MashreqApp -Onone @/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target x86_64-apple-ios17.0-simulator -g -module-cache-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator -F /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448f283584bf7b6f8d8b4a477ee9f70d2b0c.sdkstatcache -output-file-map /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex -sdk-module-cache-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp_const_extract_protocols.json -Xcc -iquote -Xcc /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-generated-files.hmap -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-own-target-headers.hmap -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-all-target-headers.hmap -Xcc -iquote -Xcc /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-project-headers.hmap -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources-normal/x86_64 -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/x86_64 -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp-Swift.h -working-directory /Users/macbookpro/Desktop/Mashreq\ /MashreqApp -experimental-emit-module-separately -disable-cmo
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ MashreqApp (in target 'MashreqApp' from project 'MashreqApp')
+
+EmitSwiftModule normal arm64 (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for MashreqApp (in target 'MashreqApp' from project 'MashreqApp')
+
+Copy /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/x86_64-apple-ios-simulator.swiftmodule /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.swiftmodule (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.swiftmodule /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/x86_64-apple-ios-simulator.swiftmodule
+
+SwiftDriver\ Compilation\ Requirements MashreqApp normal arm64 com.apple.xcode.tools.swift.compiler (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name MashreqApp -Onone @/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator -F /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448f283584bf7b6f8d8b4a477ee9f70d2b0c.sdkstatcache -output-file-map /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex -sdk-module-cache-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp_const_extract_protocols.json -Xcc -iquote -Xcc /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-generated-files.hmap -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-own-target-headers.hmap -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-all-target-headers.hmap -Xcc -iquote -Xcc /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-project-headers.hmap -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources-normal/arm64 -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/arm64 -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp-Swift.h -working-directory /Users/macbookpro/Desktop/Mashreq\ /MashreqApp -experimental-emit-module-separately -disable-cmo
+
+Copy /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/x86_64-apple-ios-simulator.swiftdoc /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.swiftdoc (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.swiftdoc /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/x86_64-apple-ios-simulator.swiftdoc
+
+Copy /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/x86_64-apple-ios-simulator.abi.json /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.abi.json (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.abi.json /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/x86_64-apple-ios-simulator.abi.json
+
+SwiftMergeGeneratedHeaders /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/MashreqApp-Swift.h /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp-Swift.h /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp-Swift.h (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-swiftHeaderTool -arch arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp-Swift.h -arch x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp-Swift.h -o /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/MashreqApp-Swift.h
+
+Copy /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/arm64-apple-ios-simulator.swiftmodule /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.swiftmodule (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.swiftmodule /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/arm64-apple-ios-simulator.swiftmodule
+
+Copy /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/arm64-apple-ios-simulator.swiftdoc /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.swiftdoc (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.swiftdoc /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/arm64-apple-ios-simulator.swiftdoc
+
+Copy /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/arm64-apple-ios-simulator.abi.json /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.abi.json (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.abi.json /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/arm64-apple-ios-simulator.abi.json
+
+Copy /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.swiftsourceinfo (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.swiftsourceinfo /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo
+
+Copy /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.swiftsourceinfo (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.swiftsourceinfo /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo
+
+SwiftCompile normal arm64 Compiling\ MashreqComponents.swift,\ MashreqTheme.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Components/MashreqComponents.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/DesignSystem/MashreqTheme.swift (in target 'MashreqApp' from project 'MashreqApp')
+SwiftCompile normal arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Components/MashreqComponents.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/DesignSystem/MashreqTheme.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal arm64 Compiling\ DemoModels.swift,\ AccountsViews.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Models/DemoModels.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/AccountsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftCompile normal arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Models/DemoModels.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/AccountsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+LinkAssetCatalog /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Assets.xcassets (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-linkAssetCatalog --thinned /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_output/thinned --thinned-dependencies /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_dependencies_thinned --thinned-info-plist-content /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_generated_info.plist_thinned --unthinned /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_output/unthinned --unthinned-dependencies /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_dependencies_unthinned --unthinned-info-plist-content /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_generated_info.plist_unthinned --output /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app --plist-output /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_generated_info.plist
+note: Emplaced /Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app/Assets.car (in target 'MashreqApp' from project 'MashreqApp')
+note: Emplaced /Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app/AppIcon76x76@2x~ipad.png (in target 'MashreqApp' from project 'MashreqApp')
+note: Emplaced /Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app/AppIcon60x60@2x.png (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling DemoModels.swift, AccountsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftCompile normal arm64 Compiling\ LoginView.swift,\ MoreView.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/LoginView.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/MoreView.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftCompile normal arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/LoginView.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/MoreView.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftDriverJobDiscovery normal x86_64 Compiling MashreqComponents.swift, MashreqTheme.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+ProcessInfoPlistFile /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app/Info.plist /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Info.plist (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-infoPlistUtility /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_generated_info.plist -o /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app/Info.plist
+
+SwiftCompile normal arm64 Compiling\ BeneficiaryViews.swift,\ CardsViews.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/BeneficiaryViews.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/CardsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+SwiftCompile normal arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/BeneficiaryViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/CardsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal arm64 Compiling\ GeneratedAssetSymbols.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'MashreqApp' from project 'MashreqApp')
+SwiftCompile normal arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftDriverJobDiscovery normal x86_64 Compiling AppRootView.swift, MashreqApp.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftCompile normal arm64 Compiling\ SupportViews.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/SupportViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftCompile normal arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/SupportViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal arm64 Compiling\ AppRootView.swift,\ MashreqApp.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/App/AppRootView.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/App/MashreqApp.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftCompile normal arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/App/AppRootView.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/App/MashreqApp.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftDriverJobDiscovery normal x86_64 Compiling LoginView.swift, MoreView.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling OverviewView.swift, PaymentsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftCompile normal arm64 Compiling\ OverviewView.swift,\ PaymentsViews.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/OverviewView.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/PaymentsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+SwiftCompile normal arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/OverviewView.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/PaymentsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftDriverJobDiscovery normal x86_64 Compiling SupportViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftCompile normal x86_64 Compiling\ GeneratedAssetSymbols.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftCompile normal x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling DemoModels.swift, AccountsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftCompile normal x86_64 Compiling\ BeneficiaryViews.swift,\ CardsViews.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/BeneficiaryViews.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/CardsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+SwiftCompile normal x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/BeneficiaryViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/CardsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling LoginView.swift, MoreView.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftDriverJobDiscovery normal arm64 Compiling AppRootView.swift, MashreqApp.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftDriverJobDiscovery normal arm64 Compiling MashreqComponents.swift, MashreqTheme.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftDriverJobDiscovery normal arm64 Compiling SupportViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling GeneratedAssetSymbols.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftDriverJobDiscovery normal arm64 Compiling BeneficiaryViews.swift, CardsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftDriverJobDiscovery normal arm64 Compiling GeneratedAssetSymbols.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftDriverJobDiscovery normal arm64 Compiling OverviewView.swift, PaymentsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftDriver\ Compilation MashreqApp normal arm64 com.apple.xcode.tools.swift.compiler (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-Swift-Compilation -- /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name MashreqApp -Onone @/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator -F /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448f283584bf7b6f8d8b4a477ee9f70d2b0c.sdkstatcache -output-file-map /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex -sdk-module-cache-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp_const_extract_protocols.json -Xcc -iquote -Xcc /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-generated-files.hmap -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-own-target-headers.hmap -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-all-target-headers.hmap -Xcc -iquote -Xcc /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-project-headers.hmap -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources-normal/arm64 -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/arm64 -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp-Swift.h -working-directory /Users/macbookpro/Desktop/Mashreq\ /MashreqApp -experimental-emit-module-separately -disable-cmo
+
+Ld /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/Binary/MashreqApp.debug.dylib normal arm64 (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -dynamiclib -isysroot /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator -F/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator -filelist /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.LinkFileList -install_name @rpath/MashreqApp.debug.dylib -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.swiftmodule @/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp-linker-args.resp -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -framework Foundation -o /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/Binary/MashreqApp.debug.dylib
+
+ConstructStubExecutorLinkFileList /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-ExecutorLinkFileList-normal-arm64.txt (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    construct-stub-executor-link-file-list /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/Binary/MashreqApp.debug.dylib /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-ExecutorLinkFileList-normal-arm64.txt
+note: Using stub executor library with Swift entry point. (in target 'MashreqApp' from project 'MashreqApp')
+
+Ld /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/Binary/MashreqApp normal arm64 (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -isysroot /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator -F/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/Frameworks -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-DebugDylibPath-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-DebugDylibInstallName-normal-arm64.txt -Xlinker -filelist -Xlinker /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-ExecutorLinkFileList-normal-arm64.txt /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/Binary/MashreqApp.debug.dylib -o /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/Binary/MashreqApp
+
+SwiftDriverJobDiscovery normal x86_64 Compiling BeneficiaryViews.swift, CardsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftDriver\ Compilation MashreqApp normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-Swift-Compilation -- /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name MashreqApp -Onone @/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target x86_64-apple-ios17.0-simulator -g -module-cache-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator -F /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448f283584bf7b6f8d8b4a477ee9f70d2b0c.sdkstatcache -output-file-map /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex -sdk-module-cache-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp_const_extract_protocols.json -Xcc -iquote -Xcc /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-generated-files.hmap -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-own-target-headers.hmap -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-all-target-headers.hmap -Xcc -iquote -Xcc /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-project-headers.hmap -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources-normal/x86_64 -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/x86_64 -Xcc -I/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp-Swift.h -working-directory /Users/macbookpro/Desktop/Mashreq\ /MashreqApp -experimental-emit-module-separately -disable-cmo
+
+Ld /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/Binary/MashreqApp.debug.dylib normal x86_64 (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios17.0-simulator -dynamiclib -isysroot /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator -F/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator -filelist /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.LinkFileList -install_name @rpath/MashreqApp.debug.dylib -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.swiftmodule @/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp-linker-args.resp -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -framework Foundation -o /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/Binary/MashreqApp.debug.dylib
+
+ConstructStubExecutorLinkFileList /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-ExecutorLinkFileList-normal-x86_64.txt (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    construct-stub-executor-link-file-list /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/Binary/MashreqApp.debug.dylib /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-ExecutorLinkFileList-normal-x86_64.txt
+note: Using stub executor library with Swift entry point. (in target 'MashreqApp' from project 'MashreqApp')
+
+CreateUniversalBinary /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app/MashreqApp.debug.dylib normal arm64\ x86_64 (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/Binary/MashreqApp.debug.dylib /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/Binary/MashreqApp.debug.dylib -output /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app/MashreqApp.debug.dylib
+
+Ld /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/Binary/MashreqApp normal x86_64 (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios17.0-simulator -isysroot /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator -F/Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/Frameworks -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-DebugDylibPath-normal-x86_64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-DebugDylibInstallName-normal-x86_64.txt -Xlinker -filelist -Xlinker /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-ExecutorLinkFileList-normal-x86_64.txt /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/Binary/MashreqApp.debug.dylib -o /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/Binary/MashreqApp
+
+CreateUniversalBinary /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app/MashreqApp normal arm64\ x86_64 (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/Binary/MashreqApp /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/Binary/MashreqApp -output /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app/MashreqApp
+
+CopySwiftLibs /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-swiftStdLibTool --copy --verbose --scan-executable /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app/MashreqApp.debug.dylib --scan-folder /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app/Frameworks --scan-folder /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app/PlugIns --scan-folder /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app/SystemExtensions --scan-folder /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app/Extensions --scan-folder /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/Foundation.framework --platform iphonesimulator --toolchain /Users/macbookpro/Library/Developer/DVTDownloads/MetalToolchain/mounts/5f4a441a6d0a11f2e9b28c67384263afe92320f7/Metal.xctoolchain --toolchain /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os --back-deploy-swift-span
+Ignoring --strip-bitcode because --sign was not passed
+
+ExtractAppIntentsMetadata (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /Users/macbookpro/Library/Developer/DVTDownloads/MetalToolchain/mounts/5f4a441a6d0a11f2e9b28c67384263afe92320f7/Metal.xctoolchain --module-name MashreqApp --sdk-root /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk --xcode-version 17F113 --platform-family iOS --deployment-target 17.0 --bundle-identifier com.madina.mashreqdemo --output /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app --target-triple arm64-apple-ios17.0-simulator --target-triple x86_64-apple-ios17.0-simulator --binary-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app/MashreqApp --dependency-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp_dependency_info.dat --dependency-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp_dependency_info.dat --stringsdata-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --stringsdata-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.SwiftFileList --source-file-list /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.SwiftFileList --metadata-file-list /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp.DependencyMetadataFileList --static-metadata-file-list /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp.DependencyStaticMetadataFileList --swift-const-vals-list /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.SwiftConstValuesFileList --swift-const-vals-list /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2026-09-02 04:17:36.543 appintentsmetadataprocessor[14735:326060] Starting appintentsmetadataprocessor export
+2026-09-02 04:17:36.574 appintentsmetadataprocessor[14735:326060] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
+
+AppIntentsSSUTraining (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app/Info.plist --temp-dir-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/ssu --bundle-id com.madina.mashreqdemo --product-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app --extracted-metadata-path /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app/Metadata.appintents --metadata-file-list /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp.DependencyMetadataFileList --source-file /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app/Info.plist --archive-ssu-assets
+2026-09-02 04:17:36.709 appintentsnltrainingprocessor[14736:326065] Parsing options for appintentsnltrainingprocessor
+2026-09-02 04:17:36.711 appintentsnltrainingprocessor[14736:326065] Starting AppIntents SSU YAML Generation
+2026-09-02 04:17:36.720 appintentsnltrainingprocessor[14736:326065] No AppShortcuts found - Skipping.
+
+RegisterExecutionPolicyException /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-RegisterExecutionPolicyException /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app
+
+Validate /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-validationUtility /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app -shallow-bundle -infoplist-subpath Info.plist
+
+Touch /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /usr/bin/touch -c /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/QA/account-collapsing-header-2026-09-02/DerivedData-compile-only/Build/Products/Debug-iphonesimulator/MashreqApp.app
+
+** BUILD SUCCEEDED **
+

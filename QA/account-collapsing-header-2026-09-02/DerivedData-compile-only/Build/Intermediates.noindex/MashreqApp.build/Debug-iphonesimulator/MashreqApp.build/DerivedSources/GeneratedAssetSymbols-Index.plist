@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>colors</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACColorNameAccentColor</string>
+			<key>relativePath</key>
+			<string>./AccentColor.colorset</string>
+			<key>swiftSymbol</key>
+			<string>accent</string>
+		</dict>
+	</array>
+	<key>images</key>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameAccountActionCardControl</string>
+			<key>relativePath</key>
+			<string>./AccountActionCardControl.imageset</string>
+			<key>swiftSymbol</key>
+			<string>accountActionCardControl</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameAccountActionDetails</string>
+			<key>relativePath</key>
+			<string>./AccountActionDetails.imageset</string>
+			<key>swiftSymbol</key>
+			<string>accountActionDetails</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameAccountActionEStatements</string>
+			<key>relativePath</key>
+			<string>./AccountActionEStatements.imageset</string>
+			<key>swiftSymbol</key>
+			<string>accountActionEStatements</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameAccountActionMoreOptions</string>
+			<key>relativePath</key>
+			<string>./AccountActionMoreOptions.imageset</string>
+			<key>swiftSymbol</key>
+			<string>accountActionMoreOptions</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameAccountCardHero</string>
+			<key>relativePath</key>
+			<string>./AccountCardHero.imageset</string>
+			<key>swiftSymbol</key>
+			<string>accountCardHero</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameAccountCompactHeader</string>
+			<key>relativePath</key>
+			<string>./AccountCompactHeader.imageset</string>
+			<key>swiftSymbol</key>
+			<string>accountCompactHeader</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameAccountHeaderGradient</string>
+			<key>relativePath</key>
+			<string>./AccountHeaderGradient.imageset</string>
+			<key>swiftSymbol</key>
+			<string>accountHeaderGradient</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameAlIslamiNEO</string>
+			<key>relativePath</key>
+			<string>./AlIslamiNEO.imageset</string>
+			<key>swiftSymbol</key>
+			<string>alIslamiNEO</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameApplePayMark</string>
+			<key>relativePath</key>
+			<string>./ApplePayMark.imageset</string>
+			<key>swiftSymbol</key>
+			<string>applePayMark</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameCashbackCard</string>
+			<key>relativePath</key>
+			<string>./CashbackCard.imageset</string>
+			<key>swiftSymbol</key>
+			<string>cashbackCard</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameDirhamMark</string>
+			<key>relativePath</key>
+			<string>./DirhamMark.imageset</string>
+			<key>swiftSymbol</key>
+			<string>dirhamMark</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameEverydayCashback</string>
+			<key>relativePath</key>
+			<string>./EverydayCashback.imageset</string>
+			<key>swiftSymbol</key>
+			<string>everydayCashback</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameLoginArtwork</string>
+			<key>relativePath</key>
+			<string>./LoginArtwork.imageset</string>
+			<key>swiftSymbol</key>
+			<string>loginArtwork</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameLoginFaceHero</string>
+			<key>relativePath</key>
+			<string>./LoginFaceHero.imageset</string>
+			<key>swiftSymbol</key>
+			<string>loginFaceHero</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameLoginFaceIDIcon</string>
+			<key>relativePath</key>
+			<string>./LoginFaceIDIcon.imageset</string>
+			<key>swiftSymbol</key>
+			<string>loginFaceIDIcon</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameLoginFaceReferenceScreen</string>
+			<key>relativePath</key>
+			<string>./LoginFaceReferenceScreen.imageset</string>
+			<key>swiftSymbol</key>
+			<string>loginFaceReferenceScreen</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameLoginPublicHero</string>
+			<key>relativePath</key>
+			<string>./LoginPublicHero.imageset</string>
+			<key>swiftSymbol</key>
+			<string>loginPublicHero</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameLoginQuickBalanceIcon</string>
+			<key>relativePath</key>
+			<string>./LoginQuickBalanceIcon.imageset</string>
+			<key>swiftSymbol</key>
+			<string>loginQuickBalanceIcon</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameLoginSecurityIcon</string>
+			<key>relativePath</key>
+			<string>./LoginSecurityIcon.imageset</string>
+			<key>swiftSymbol</key>
+			<string>loginSecurityIcon</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameLoginSendMoneyIcon</string>
+			<key>relativePath</key>
+			<string>./LoginSendMoneyIcon.imageset</string>
+			<key>swiftSymbol</key>
+			<string>loginSendMoneyIcon</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameMashreqLogo</string>
+			<key>relativePath</key>
+			<string>./MashreqLogo.imageset</string>
+			<key>swiftSymbol</key>
+			<string>mashreqLogo</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameNeoCardArt</string>
+			<key>relativePath</key>
+			<string>./NeoCardArt.imageset</string>
+			<key>swiftSymbol</key>
+			<string>neoCardArt</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameNotificationCard</string>
+			<key>relativePath</key>
+			<string>./NotificationCard.imageset</string>
+			<key>swiftSymbol</key>
+			<string>notificationCard</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameNotificationHappiness</string>
+			<key>relativePath</key>
+			<string>./NotificationHappiness.imageset</string>
+			<key>swiftSymbol</key>
+			<string>notificationHappiness</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameNotificationID</string>
+			<key>relativePath</key>
+			<string>./NotificationID.imageset</string>
+			<key>swiftSymbol</key>
+			<string>notificationID</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameNotificationLoan</string>
+			<key>relativePath</key>
+			<string>./NotificationLoan.imageset</string>
+			<key>swiftSymbol</key>
+			<string>notificationLoan</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameOverviewAddMoneyPlus</string>
+			<key>relativePath</key>
+			<string>./OverviewAddMoneyPlus.imageset</string>
+			<key>swiftSymbol</key>
+			<string>overviewAddMoneyPlus</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameOverviewBanner</string>
+			<key>relativePath</key>
+			<string>./OverviewBanner.imageset</string>
+			<key>swiftSymbol</key>
+			<string>overviewBanner</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameOverviewEye</string>
+			<key>relativePath</key>
+			<string>./OverviewEye.imageset</string>
+			<key>swiftSymbol</key>
+			<string>overviewEye</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameOverviewHeaderChat</string>
+			<key>relativePath</key>
+			<string>./OverviewHeaderChat.imageset</string>
+			<key>swiftSymbol</key>
+			<string>overviewHeaderChat</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameOverviewHeaderGradient</string>
+			<key>relativePath</key>
+			<string>./OverviewHeaderGradient.imageset</string>
+			<key>swiftSymbol</key>
+			<string>overviewHeaderGradient</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameOverviewHeaderNotifications</string>
+			<key>relativePath</key>
+			<string>./OverviewHeaderNotifications.imageset</string>
+			<key>swiftSymbol</key>
+			<string>overviewHeaderNotifications</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameOverviewHeaderProfile</string>
+			<key>relativePath</key>
+			<string>./OverviewHeaderProfile.imageset</string>
+			<key>swiftSymbol</key>
+			<string>overviewHeaderProfile</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameOverviewMoneyInsightsArt</string>
+			<key>relativePath</key>
+			<string>./OverviewMoneyInsightsArt.imageset</string>
+			<key>swiftSymbol</key>
+			<string>overviewMoneyInsightsArt</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameOverviewNavOverview</string>
+			<key>relativePath</key>
+			<string>./OverviewNavOverview.imageset</string>
+			<key>swiftSymbol</key>
+			<string>overviewNavOverview</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameOverviewNavOverviewActive</string>
+			<key>relativePath</key>
+			<string>./OverviewNavOverviewActive.imageset</string>
+			<key>swiftSymbol</key>
+			<string>overviewNavOverviewActive</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameOverviewNavPay</string>
+			<key>relativePath</key>
+			<string>./OverviewNavPay.imageset</string>
+			<key>swiftSymbol</key>
+			<string>overviewNavPay</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameOverviewNavPayActive</string>
+			<key>relativePath</key>
+			<string>./OverviewNavPayActive.imageset</string>
+			<key>swiftSymbol</key>
+			<string>overviewNavPayActive</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameOverviewNavRewards</string>
+			<key>relativePath</key>
+			<string>./OverviewNavRewards.imageset</string>
+			<key>swiftSymbol</key>
+			<string>overviewNavRewards</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameOverviewNavRewardsActive</string>
+			<key>relativePath</key>
+			<string>./OverviewNavRewardsActive.imageset</string>
+			<key>swiftSymbol</key>
+			<string>overviewNavRewardsActive</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameOverviewNavServices</string>
+			<key>relativePath</key>
+			<string>./OverviewNavServices.imageset</string>
+			<key>swiftSymbol</key>
+			<string>overviewNavServices</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameOverviewNavServicesActive</string>
+			<key>relativePath</key>
+			<string>./OverviewNavServicesActive.imageset</string>
+			<key>swiftSymbol</key>
+			<string>overviewNavServicesActive</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameOverviewNeoLockup</string>
+			<key>relativePath</key>
+			<string>./OverviewNeoLockup.imageset</string>
+			<key>swiftSymbol</key>
+			<string>overviewNeoLockup</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameOverviewNextAccountPeek</string>
+			<key>relativePath</key>
+			<string>./OverviewNextAccountPeek.imageset</string>
+			<key>swiftSymbol</key>
+			<string>overviewNextAccountPeek</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNamePlatinumCard</string>
+			<key>relativePath</key>
+			<string>./PlatinumCard.imageset</string>
+			<key>swiftSymbol</key>
+			<string>platinumCard</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameQuickRemit</string>
+			<key>relativePath</key>
+			<string>./QuickRemit.imageset</string>
+			<key>swiftSymbol</key>
+			<string>quickRemit</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameReferenceFlowBack</string>
+			<key>relativePath</key>
+			<string>./ReferenceFlowBack.imageset</string>
+			<key>swiftSymbol</key>
+			<string>referenceFlowBack</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameReferenceFlowHeaderBackground</string>
+			<key>relativePath</key>
+			<string>./ReferenceFlowHeaderBackground.imageset</string>
+			<key>swiftSymbol</key>
+			<string>referenceFlowHeaderBackground</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameSolitaireCard</string>
+			<key>relativePath</key>
+			<string>./SolitaireCard.imageset</string>
+			<key>swiftSymbol</key>
+			<string>solitaireCard</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameSuccessCheck</string>
+			<key>relativePath</key>
+			<string>./SuccessCheck.imageset</string>
+			<key>swiftSymbol</key>
+			<string>successCheck</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameTransactionApplePay</string>
+			<key>relativePath</key>
+			<string>./TransactionApplePay.imageset</string>
+			<key>swiftSymbol</key>
+			<string>transactionApplePay</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameTransactionBack</string>
+			<key>relativePath</key>
+			<string>./TransactionBack.imageset</string>
+			<key>swiftSymbol</key>
+			<string>transactionBack</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameTransactionDateCalendar</string>
+			<key>relativePath</key>
+			<string>./TransactionDateCalendar.imageset</string>
+			<key>swiftSymbol</key>
+			<string>transactionDateCalendar</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameTransactionFilterCalendar</string>
+			<key>relativePath</key>
+			<string>./TransactionFilterCalendar.imageset</string>
+			<key>swiftSymbol</key>
+			<string>transactionFilterCalendar</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameTransferSuccessCheckRef</string>
+			<key>relativePath</key>
+			<string>./TransferSuccessCheckRef.imageset</string>
+			<key>swiftSymbol</key>
+			<string>transferSuccessCheckRef</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameTransferSuccessDownload</string>
+			<key>relativePath</key>
+			<string>./TransferSuccessDownload.imageset</string>
+			<key>swiftSymbol</key>
+			<string>transferSuccessDownload</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameUAEFlag</string>
+			<key>relativePath</key>
+			<string>./UAEFlag.imageset</string>
+			<key>swiftSymbol</key>
+			<string>uaeFlag</string>
+		</dict>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameWioDirhamSymbol</string>
+			<key>relativePath</key>
+			<string>./WioDirhamSymbol.imageset</string>
+			<key>swiftSymbol</key>
+			<string>wioDirhamSymbol</string>
+		</dict>
+	</array>
+	<key>symbols</key>
+	<array/>
+</dict>
+</plist>

@@ -1,0 +1,149 @@
+{
+  "" : {
+    "diagnostics" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp-primary.dia",
+    "emit-module-dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp-primary-emit-module.dia",
+    "pch" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp-primary.swiftdeps"
+  },
+  "/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/App/AppRootView.swift" : {
+    "const-values" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/AppRootView.swiftconstvalues",
+    "dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/AppRootView.d",
+    "diagnostics" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/AppRootView.dia",
+    "index-unit-output-path" : "/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/AppRootView.o",
+    "llvm-bc" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/AppRootView.bc",
+    "object" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/AppRootView.o",
+    "swift-dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/AppRootView.swiftdeps",
+    "swiftmodule" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/AppRootView~partial.swiftmodule"
+  },
+  "/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/App/MashreqApp.swift" : {
+    "const-values" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.swiftconstvalues",
+    "dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.d",
+    "diagnostics" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.dia",
+    "index-unit-output-path" : "/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.o",
+    "llvm-bc" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.bc",
+    "object" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.o",
+    "swift-dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.swiftdeps",
+    "swiftmodule" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp~partial.swiftmodule"
+  },
+  "/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Components/MashreqComponents.swift" : {
+    "const-values" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqComponents.swiftconstvalues",
+    "dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqComponents.d",
+    "diagnostics" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqComponents.dia",
+    "index-unit-output-path" : "/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqComponents.o",
+    "llvm-bc" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqComponents.bc",
+    "object" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqComponents.o",
+    "swift-dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqComponents.swiftdeps",
+    "swiftmodule" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqComponents~partial.swiftmodule"
+  },
+  "/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/DesignSystem/MashreqTheme.swift" : {
+    "const-values" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqTheme.swiftconstvalues",
+    "dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqTheme.d",
+    "diagnostics" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqTheme.dia",
+    "index-unit-output-path" : "/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqTheme.o",
+    "llvm-bc" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqTheme.bc",
+    "object" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqTheme.o",
+    "swift-dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqTheme.swiftdeps",
+    "swiftmodule" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqTheme~partial.swiftmodule"
+  },
+  "/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Models/DemoModels.swift" : {
+    "const-values" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/DemoModels.swiftconstvalues",
+    "dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/DemoModels.d",
+    "diagnostics" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/DemoModels.dia",
+    "index-unit-output-path" : "/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/DemoModels.o",
+    "llvm-bc" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/DemoModels.bc",
+    "object" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/DemoModels.o",
+    "swift-dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/DemoModels.swiftdeps",
+    "swiftmodule" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/DemoModels~partial.swiftmodule"
+  },
+  "/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Screens/AccountsViews.swift" : {
+    "const-values" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/AccountsViews.swiftconstvalues",
+    "dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/AccountsViews.d",
+    "diagnostics" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/AccountsViews.dia",
+    "index-unit-output-path" : "/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/AccountsViews.o",
+    "llvm-bc" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/AccountsViews.bc",
+    "object" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/AccountsViews.o",
+    "swift-dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/AccountsViews.swiftdeps",
+    "swiftmodule" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/AccountsViews~partial.swiftmodule"
+  },
+  "/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Screens/BeneficiaryViews.swift" : {
+    "const-values" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/BeneficiaryViews.swiftconstvalues",
+    "dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/BeneficiaryViews.d",
+    "diagnostics" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/BeneficiaryViews.dia",
+    "index-unit-output-path" : "/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/BeneficiaryViews.o",
+    "llvm-bc" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/BeneficiaryViews.bc",
+    "object" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/BeneficiaryViews.o",
+    "swift-dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/BeneficiaryViews.swiftdeps",
+    "swiftmodule" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/BeneficiaryViews~partial.swiftmodule"
+  },
+  "/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Screens/CardsViews.swift" : {
+    "const-values" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/CardsViews.swiftconstvalues",
+    "dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/CardsViews.d",
+    "diagnostics" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/CardsViews.dia",
+    "index-unit-output-path" : "/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/CardsViews.o",
+    "llvm-bc" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/CardsViews.bc",
+    "object" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/CardsViews.o",
+    "swift-dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/CardsViews.swiftdeps",
+    "swiftmodule" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/CardsViews~partial.swiftmodule"
+  },
+  "/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Screens/LoginView.swift" : {
+    "const-values" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/LoginView.swiftconstvalues",
+    "dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/LoginView.d",
+    "diagnostics" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/LoginView.dia",
+    "index-unit-output-path" : "/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/LoginView.o",
+    "llvm-bc" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/LoginView.bc",
+    "object" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/LoginView.o",
+    "swift-dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/LoginView.swiftdeps",
+    "swiftmodule" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/LoginView~partial.swiftmodule"
+  },
+  "/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Screens/MoreView.swift" : {
+    "const-values" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MoreView.swiftconstvalues",
+    "dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MoreView.d",
+    "diagnostics" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MoreView.dia",
+    "index-unit-output-path" : "/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MoreView.o",
+    "llvm-bc" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MoreView.bc",
+    "object" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MoreView.o",
+    "swift-dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MoreView.swiftdeps",
+    "swiftmodule" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MoreView~partial.swiftmodule"
+  },
+  "/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Screens/OverviewView.swift" : {
+    "const-values" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/OverviewView.swiftconstvalues",
+    "dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/OverviewView.d",
+    "diagnostics" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/OverviewView.dia",
+    "index-unit-output-path" : "/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/OverviewView.o",
+    "llvm-bc" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/OverviewView.bc",
+    "object" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/OverviewView.o",
+    "swift-dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/OverviewView.swiftdeps",
+    "swiftmodule" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/OverviewView~partial.swiftmodule"
+  },
+  "/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Screens/PaymentsViews.swift" : {
+    "const-values" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/PaymentsViews.swiftconstvalues",
+    "dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/PaymentsViews.d",
+    "diagnostics" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/PaymentsViews.dia",
+    "index-unit-output-path" : "/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/PaymentsViews.o",
+    "llvm-bc" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/PaymentsViews.bc",
+    "object" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/PaymentsViews.o",
+    "swift-dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/PaymentsViews.swiftdeps",
+    "swiftmodule" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/PaymentsViews~partial.swiftmodule"
+  },
+  "/Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Screens/SupportViews.swift" : {
+    "const-values" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/SupportViews.swiftconstvalues",
+    "dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/SupportViews.d",
+    "diagnostics" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/SupportViews.dia",
+    "index-unit-output-path" : "/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/SupportViews.o",
+    "llvm-bc" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/SupportViews.bc",
+    "object" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/SupportViews.o",
+    "swift-dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/SupportViews.swiftdeps",
+    "swiftmodule" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/SupportViews~partial.swiftmodule"
+  },
+  "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/macbookpro/Desktop/Mashreq /MashreqApp/QA/account-gradient-height-2026-09-08/DerivedData/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

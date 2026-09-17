@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>12</integer>
+	<key>logs</key>
+	<dict>
+		<key>D62E7FC9-C675-4EEA-B737-E9F01868B387</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D62E7FC9-C675-4EEA-B737-E9F01868B387.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>MashreqApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MashreqApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project MashreqApp with scheme MashreqApp and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>810552861.66889203</real>
+			<key>timeStoppedRecording</key>
+			<real>810552986.00311303</real>
+			<key>title</key>
+			<string>Building project MashreqApp with scheme MashreqApp and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>D62E7FC9-C675-4EEA-B737-E9F01868B387</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

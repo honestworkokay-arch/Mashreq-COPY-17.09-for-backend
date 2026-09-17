@@ -1,0 +1,52 @@
+server:
+  port: ${PORT:8080}
+  shutdown: graceful
+  error:
+    include-message: never
+
+spring:
+  application:
+    name: mashreq-backend
+  datasource:
+    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/mashreq}
+    username: ${SPRING_DATASOURCE_USERNAME:mashreq}
+    password: ${SPRING_DATASOURCE_PASSWORD:mashreq}
+    hikari:
+      maximum-pool-size: 10
+      minimum-idle: 2
+  flyway:
+    enabled: true
+  mail:
+    host: ${SMTP_HOST:localhost}
+    port: ${SMTP_PORT:1025}
+    username: ${SMTP_USERNAME:}
+    password: ${SMTP_PASSWORD:}
+    properties:
+      mail.smtp.auth: ${SMTP_AUTH:true}
+      mail.smtp.starttls.enable: ${SMTP_STARTTLS:true}
+      mail.smtp.connectiontimeout: 5000
+      mail.smtp.timeout: 10000
+      mail.smtp.writetimeout: 10000
+
+app:
+  auth:
+    session-ttl: ${SESSION_TTL:PT720H}
+  otp:
+    ttl: ${OTP_TTL:PT5M}
+    resend-cooldown: ${OTP_RESEND_COOLDOWN:PT1M}
+    max-attempts: ${OTP_MAX_ATTEMPTS:5}
+    pepper: ${OTP_PEPPER:development-only-change-me-before-live-1234}
+  delivery:
+    mode: ${DELIVERY_MODE:console}
+    allow-debug-otp: ${ALLOW_DEBUG_OTP:false}
+    smtp-from: ${SMTP_FROM:Mashreq App <no-reply@example.com>}
+  twilio:
+    account-sid: ${TWILIO_ACCOUNT_SID:}
+    auth-token: ${TWILIO_AUTH_TOKEN:}
+    from-number: ${TWILIO_FROM_NUMBER:}
+    messaging-service-sid: ${TWILIO_MESSAGING_SERVICE_SID:}
+
+logging:
+  level:
+    root: INFO
+    com.mashreq.backend: INFO

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>12</integer>
+	<key>logs</key>
+	<dict>
+		<key>E4853153-A995-47E3-A7B8-115F4F9A4A59</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>E4853153-A995-47E3-A7B8-115F4F9A4A59.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>MashreqApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MashreqApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project MashreqApp with scheme MashreqApp and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>810568852.88368297</real>
+			<key>timeStoppedRecording</key>
+			<real>810568894.82216001</real>
+			<key>title</key>
+			<string>Building project MashreqApp with scheme MashreqApp and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>E4853153-A995-47E3-A7B8-115F4F9A4A59</string>
+		</dict>
+		<key>EF1B1200-29FB-48B0-AD05-E798B1A55E14</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>EF1B1200-29FB-48B0-AD05-E798B1A55E14.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>MashreqApp project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>MashreqApp</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project MashreqApp with scheme MashreqApp and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>810573202.59545696</real>
+			<key>timeStoppedRecording</key>
+			<real>810573244.83328497</real>
+			<key>title</key>
+			<string>Building project MashreqApp with scheme MashreqApp and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>EF1B1200-29FB-48B0-AD05-E798B1A55E14</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

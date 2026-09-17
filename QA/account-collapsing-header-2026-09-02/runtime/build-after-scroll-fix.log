@@ -1,0 +1,770 @@
+Command line invocation:
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/usr/bin/xcodebuild -project MashreqApp.xcodeproj -scheme MashreqApp -sdk iphonesimulator -destination "generic/platform=iOS Simulator" -derivedDataPath /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2 CODE_SIGNING_ALLOWED=NO build
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+    SDKROOT = iphonesimulator26.5
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'MashreqApp' in project 'MashreqApp' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode-26.6-Final.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/macbookpro/Desktop/Mashreq /MashreqApp/MashreqApp/Assets.xcassets
+
+ExecuteExternalTool /Applications/Xcode-26.6-Final.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: 2d71ad4d2f0098ea4f889d985d6ebb45
+Build description path: /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/XCBuildData/2d71ad4d2f0098ea4f889d985d6ebb45.xcbuilddata
+CreateBuildDirectory /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp.xcodeproj
+    builtin-create-build-directory /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products
+
+CreateBuildDirectory /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp.xcodeproj
+    builtin-create-build-directory /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex
+
+ClangStatCache /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448f283584bf7b6f8d8b4a477ee9f70d2b0c.sdkstatcache
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp.xcodeproj
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -o /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448f283584bf7b6f8d8b4a477ee9f70d2b0c.sdkstatcache
+
+CreateBuildDirectory /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp.xcodeproj
+    builtin-create-build-directory /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator
+
+CreateBuildDirectory /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/ExplicitPrecompiledModules
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp.xcodeproj
+    builtin-create-build-directory /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp.xcodeproj
+    builtin-create-build-directory /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp.xcodeproj
+    builtin-create-build-directory /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator
+
+WriteAuxiliaryFile /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp-31129cda69f898f2893241d530cc5272-VFS-iphonesimulator/all-product-headers.yaml
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp.xcodeproj
+    write-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp-31129cda69f898f2893241d530cc5272-VFS-iphonesimulator/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.SwiftConstValuesFileList (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp_const_extract_protocols.json (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.SwiftFileList (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.SwiftFileList
+
+WriteAuxiliaryFile /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp-OutputFileMap.json (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.SwiftFileList (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.SwiftFileList
+
+WriteAuxiliaryFile /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.LinkFileList (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.LinkFileList
+
+WriteAuxiliaryFile /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp_const_extract_protocols.json (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.SwiftConstValuesFileList (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.LinkFileList (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.LinkFileList
+
+WriteAuxiliaryFile /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp-OutputFileMap.json (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp.hmap (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp.hmap
+
+WriteAuxiliaryFile /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp.DependencyStaticMetadataFileList (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp.DependencyMetadataFileList (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-project-headers.hmap (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-project-headers.hmap
+
+WriteAuxiliaryFile /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-generated-files.hmap (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-generated-files.hmap
+
+WriteAuxiliaryFile /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-all-target-headers.hmap (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-all-non-framework-target-headers.hmap (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-own-target-headers.hmap (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-DebugDylibPath-normal-x86_64.txt (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-DebugDylibPath-normal-x86_64.txt
+
+WriteAuxiliaryFile /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-DebugDylibPath-normal-arm64.txt (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-DebugDylibPath-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-DebugDylibInstallName-normal-x86_64.txt (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-DebugDylibInstallName-normal-x86_64.txt
+
+WriteAuxiliaryFile /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-DebugDylibInstallName-normal-arm64.txt (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    write-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-DebugDylibInstallName-normal-arm64.txt
+
+MkDir /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /bin/mkdir -p /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app
+
+MkDir /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_output/thinned (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /bin/mkdir -p /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_output/thinned
+
+CpResource /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app/29LTBukra-SemiBold.ttf /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Fonts/29LTBukra-SemiBold.ttf (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Fonts/29LTBukra-SemiBold.ttf /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app
+
+MkDir /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_output/unthinned (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /bin/mkdir -p /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_output/unthinned
+
+Ld /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/Binary/__preview.dylib normal x86_64 (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios17.0-simulator -dynamiclib -isysroot /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator -F/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator -install_name @rpath/MashreqApp.debug.dylib -Xlinker -dead_strip -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp_dependency_info.dat -o /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/Binary/__preview.dylib
+
+Ld /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/Binary/__preview.dylib normal arm64 (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -dynamiclib -isysroot /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator -F/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator -install_name @rpath/MashreqApp.debug.dylib -Xlinker -dead_strip -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp_dependency_info.dat -o /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/Binary/__preview.dylib
+
+GenerateAssetSymbols /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Assets.xcassets (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/usr/bin/actool /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Assets.xcassets --compile /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app --output-format human-readable-text --notices --warnings --export-dependency-info /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_dependencies --output-partial-info-plist /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_generated_info.plist --app-icon AppIcon --accent-color AccentColor --compress-pngs --enable-on-demand-resources YES --development-region en --target-device iphone --minimum-deployment-target 17.0 --platform iphonesimulator --bundle-identifier com.madina.mashreqdemo --generate-swift-asset-symbols /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/GeneratedAssetSymbols.swift --generate-objc-asset-symbols /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/GeneratedAssetSymbols.h --generate-asset-symbol-index /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/* com.apple.actool.compilation-results */
+/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/GeneratedAssetSymbols.h
+/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/GeneratedAssetSymbols.swift
+
+
+CpResource /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app/29LTBukra-Regular.ttf /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Fonts/29LTBukra-Regular.ttf (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Fonts/29LTBukra-Regular.ttf /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app
+
+CpResource /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app/29LTBukra-Medium.ttf /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Fonts/29LTBukra-Medium.ttf (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Fonts/29LTBukra-Medium.ttf /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app
+
+CpResource /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app/29LTBukra-Light.ttf /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Fonts/29LTBukra-Light.ttf (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Fonts/29LTBukra-Light.ttf /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app
+
+CpResource /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app/29LTBukra-Bold.ttf /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Fonts/29LTBukra-Bold.ttf (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Fonts/29LTBukra-Bold.ttf /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app
+
+CompileAssetCatalogVariant thinned /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Assets.xcassets (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/usr/bin/actool /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Assets.xcassets --compile /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_output/thinned --output-format human-readable-text --notices --warnings --export-dependency-info /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_dependencies_thinned --output-partial-info-plist /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_generated_info.plist_thinned --app-icon AppIcon --accent-color AccentColor --compress-pngs --enable-on-demand-resources YES --development-region en --target-device iphone --minimum-deployment-target 17.0 --platform iphonesimulator
+/* com.apple.actool.compilation-results */
+/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_generated_info.plist_thinned
+/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_output/thinned/AppIcon60x60@2x.png
+/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_output/thinned/AppIcon76x76@2x~ipad.png
+/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_output/thinned/Assets.car
+
+
+CreateUniversalBinary /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app/__preview.dylib normal arm64\ x86_64 (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/Binary/__preview.dylib /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/Binary/__preview.dylib -output /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app/__preview.dylib
+
+SwiftDriver MashreqApp normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-SwiftDriver -- /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name MashreqApp -Onone @/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target x86_64-apple-ios17.0-simulator -g -module-cache-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator -F /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448f283584bf7b6f8d8b4a477ee9f70d2b0c.sdkstatcache -output-file-map /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex -sdk-module-cache-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp_const_extract_protocols.json -Xcc -iquote -Xcc /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-generated-files.hmap -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-own-target-headers.hmap -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-all-target-headers.hmap -Xcc -iquote -Xcc /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-project-headers.hmap -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources-normal/x86_64 -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/x86_64 -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp-Swift.h -working-directory /Users/macbookpro/Desktop/Mashreq\ /MashreqApp -experimental-emit-module-separately -disable-cmo
+
+SwiftDriver MashreqApp normal arm64 com.apple.xcode.tools.swift.compiler (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-SwiftDriver -- /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name MashreqApp -Onone @/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator -F /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448f283584bf7b6f8d8b4a477ee9f70d2b0c.sdkstatcache -output-file-map /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex -sdk-module-cache-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp_const_extract_protocols.json -Xcc -iquote -Xcc /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-generated-files.hmap -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-own-target-headers.hmap -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-all-target-headers.hmap -Xcc -iquote -Xcc /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-project-headers.hmap -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources-normal/arm64 -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/arm64 -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp-Swift.h -working-directory /Users/macbookpro/Desktop/Mashreq\ /MashreqApp -experimental-emit-module-separately -disable-cmo
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_SwiftConcurrencyShims-43R7LZQFAPX10FE5M8GRH3EPL.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_Builtin_stdarg-4WLOXGCD3E1ODVBNA9KVUC7G9.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/DeveloperToolsSupport-7U6V1XJYHG2LMGL9OJH7DXCSA.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_Builtin_stdbool-5TVHMX1RNEJX6PMYSVOGA56FD.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/ptrauth-B7LH1DI26574UZCE0AA3KK84L.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/SwiftShims-8RFO3DR7IJ5OQOM8CR54SJP3L.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_Builtin_float-399UDYM5JIX6FOV6T5Q1ISQVU.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_Builtin_stdbool-B9BFE9Y8RQEROFSXMYSCFKMNU.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_AvailabilityInternal-ANLTT5G7TYLCL3IJXQAGZTE7.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/ptrauth-DBFCGW7BZ8D3ZFAHGRBBFC2VC.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_Builtin_float-4EN9R8BRUBUVQHLRDCX6XDH99.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/SwiftShims-6BNG073WZ5P1TE2IHH8I3GQ9S.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_Builtin_stddef-2S8OHPWRKWJW3T449XUGQ4ZDB.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/DeveloperToolsSupport-9QCR0MXPXLUZD6ONSRGUCYV8P.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_SwiftConcurrencyShims-62EGN4TXN9BOXG02FSV20W59I.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_AvailabilityInternal-64L4XE1SCPGMH9XELZ95XHSU1.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_Builtin_stdarg-3CZ16T0R33KC7O2ARKA2WIOMD.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/ptrcheck-8BCOELMVY4WF48DLIYRZNGSPI.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_Builtin_stddef-9C12OS0HL8ZGANXSPOZ1NE6B.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/ptrcheck-4GIJUYCDPTR0NJ8S9C70CNYH0.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_DarwinFoundation1-72D3RFZSKITDQS033B98GIG3S.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_DarwinFoundation1-CAWG4FOB13O0DZMQ7T7KRDHIG.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_Builtin_limits-AW8PI39JJOQTC7UZHWKQOCEC7.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_DarwinFoundation2-ELAZGGYKQ7P9BL71Y1VLYAUE4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_DarwinFoundation2-4PWJMW3XE7IF94RVKXTZ8XVHJ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_Builtin_limits-7M6DUXKF471OAPOEEEGGKYNUR.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/sys_types-9PBHBPS2JPYLQO2Q1900ZN7AE.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_Builtin_tgmath-1C5HBMM7OOWVU09N1YCH35Z8I.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_Builtin_stdint-3LRIRBIDI1IO1YF0B3I34MVBB.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/sys_types-E1KKOJ640CYG7MOA94JE0IMW9.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_Builtin_stdint-ATOJMURJBLBGGKT2VW4KP116K.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_Builtin_tgmath-9QS05XPY8J9CMJK91MNAEHMES.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_DarwinFoundation3-AHJALR102NKYUC9N6NRBLWKK6.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_Builtin_stdatomic-F1P4AXDOR0DF8SXVYFWVHVG98.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_Builtin_stdatomic-166ONGZYMQU2KTTQMZ8VHNAYM.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_DarwinFoundation3-A12NM4D2114PATB7TVI1X3RCF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_Builtin_intrinsics-1AVJ3PHRWUGDEGFOQ6SDU84KE.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_Builtin_inttypes-EZR1ZI5LQ7ZR28JNY2YRPTYIV.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_Builtin_intrinsics-44FEYU6KQG204SP3AHO3DS3WO.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/_Builtin_inttypes-48QK0SISDFOTCZR8U3WKD1PJB.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/Darwin-6LT61D9R6PUE3PJ6PLHYV6WFJ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/Darwin-28ME47AKDQBEASWQZ24TQ2QRG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/simd-7YB48EHU4HI2BU58DLJK8HWKZ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/ObjectiveC-4PGE09H7BHB8WWSGLLMHYWOZ4.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/MachO-3KCMI99AZLBTUIQRPLW83AAYN.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/ObjectiveC-9Q8O6AMOM84UJQOH1AR3CFQ94.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/MachO-5ID7N07WBKV34H8EXEF8IGLQ7.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/os_object-1E8D9D12K8HAR1AJXFTBMFWH3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/os_object-8UGQ9EKK6PCAM6XEBXLMK6X9Z.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/os_workgroup-A3N1MBBN14PIO6KDL1NT0OYQ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/simd-MPKDAFT6RGAKZET9BTT7N16Z.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/os_workgroup-8JC40C5AANJ6S0LPPRTP2L2I9.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/Dispatch-E1OB3G3D1JHE7DWF8WXEMDCLZ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/Dispatch-3SQ4VCD8GCATW968CGDA47VS3.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/CoreFoundation-8ZYIW8AR3MGR8AUUJF5AI73Y3.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/XPC-3Z74BLGWK7COZE97ERW8QD8RI.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/os-1M6XE032XGCTL0FQUHA2EMEY9.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/CoreFoundation-A8P6R4ZWG6PP6ED3R1D3VDUC7.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/XPC-8C6QJQK853O521QFXIY60TTV4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/os-6RP2KRNX6GYQ2L1OO0R9V5AMT.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/CoreGraphics-N4VBDA4Q89QS0NNYZWE9E5C5.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/Security-533BLE3XCYJQQ1GGA67YJVPCC.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/CFNetwork-EOK7HMNNCS24ESZ557WMD8WNQ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/CoreGraphics-3YQFC6YH3OLX7RSYRYNWN8420.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/Security-Z0RY9MCHVD9FH3J6JDEHTIVL.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/CFNetwork-BHLPK7XVBMGLYZGAH4PQH4ZSN.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/Foundation-AJ4ZOUAZ2XEMECS86Q1MC4WY3.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/CoreText-BZ5C8G2XBD76THN30GVXH3GFI.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/ImageIO-8ZC22ORF1LXV7GXLGGQ192CD.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/Spatial-3IYELA1YWGT99XMAMZ57YWUN2.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/Foundation-1LH0K5P8PCCDMWT7XTU7TR1S1.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/ImageIO-5N94IQEMOG5GUXI5FIHZA576I.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/CoreText-1MRHWUKUS0S5KCI87RR6GKQAV.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/Spatial-7KOA11U49M4QL568A6LSK85YM.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/UniformTypeIdentifiers-4MEEZY89M4J56VBJXHLTWC32I.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/OpenGLES-2QUTVONCIZ2C45AJZVBVT0V8R.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/OSLog-A99YLUXEGGTTJRJVZEBW99RN6.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/FileProvider-70EDE4GYBV50RIRW8065DAW5O.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/DataDetection-3PRZK1P2ONCPTYGWSLR4LV2FQ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/CoreData-5AKOBY9RZPJXDGU0JM7FBFSZ2.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/Accessibility-39YRA0WCJ0RMQ9XTW7R0NMYO8.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/Symbols-68I13E1LYAQ7OOFJ7WWOQAAXS.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/CoreData-E1K1X0VDAMJ49F6LBM6FHDCWA.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/UserNotifications-6362B66QRQICXDDW1LE3ZVNSL.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/OpenGLES-7O1JQ6CWVEY8D8OXKTD069H22.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/Accessibility-2NAZJVZ4SV6HCD0J56RHH3ZE6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/IOSurface-6IPNY87IEC3BNR0U37IN2PHNA.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/CoreTransferable-75U9X5XYMT020JEVXD4ICKHWP.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/LocalAuthentication-3P0921B00GIR0F6IH64T9HY84.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/UIUtilities-CMDOD6DZLVYQSPUZTWSSQQO2W.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/FileProvider-AMJ2DDJGVPE5B2GYBUBKDB8DK.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/Metal-C66C7NQUTU6PEWGD5S18M250Q.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/Symbols-9WNS8WQYDTRS6EKPIVOFK220L.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/DataDetection-E4EU8ABTGG4QK5VJTKP7HLD8O.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/IOSurface-49KUM4P56XYIPDQOSDKBXKHWO.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/UserNotifications-TOZ5F2W7VVPZO8VXYCN7VRZU.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/OSLog-AIPGAE6X879RIL0LSQNKEMDG3.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/UIUtilities-BLPOWURPQ9S5CGRBK8C0U5BLT.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/UniformTypeIdentifiers-9YDIZY4YHMQX53VU4I9FCKDIN.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/LocalAuthentication-2LL5WZD4LV6XFAZSYJ5DLZG2W.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/CoreTransferable-AED71Z0915XPJIEQ21NJB0EHH.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/Metal-2SA4KIZQ41NNBKR4X6B4EN4S5.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/CoreVideo-AB46LVX0EFTTB03C2SHUHL6KA.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/CoreVideo-CRKNYN65J6O658X9L70MQ0KNA.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/QuartzCore-AQXFRWKWE4OTW3OI0HXFE9JQF.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/CoreImage-4X5WIAOL8309FKWSVZRKT45FJ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/CoreImage-E9O0YRN0O2A6MP7CZFMWN05EK.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/QuartzCore-DRYIDX83MSS6B8O9XOT5LW7X0.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/SwiftUICore-EES6U6XNBE3P6VXDC41AX3QE8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/UIKit-ELXUQF2C9T0UHH7HYLJEJ83IQ.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/SwiftUICore-8IX35VOMK00XN28YN0DX5BH5O.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/UIKit-4RJRVOX9IEMXQWW3VN2AAYHSI.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/SwiftUI-BOL5469H9V07ENDN8K1SUYKIV.pcm
+
+SwiftExplicitDependencyGeneratePcm x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/SwiftUI-B1PWLD6CK46GFLDQZ5S3LJ21B.pcm
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ MashreqApp (in target 'MashreqApp' from project 'MashreqApp')
+
+EmitSwiftModule normal arm64 (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal arm64 Compiling\ MashreqComponents.swift,\ MashreqTheme.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Components/MashreqComponents.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/DesignSystem/MashreqTheme.swift (in target 'MashreqApp' from project 'MashreqApp')
+SwiftCompile normal arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Components/MashreqComponents.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/DesignSystem/MashreqTheme.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal arm64 Compiling\ AppRootView.swift,\ MashreqApp.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/App/AppRootView.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/App/MashreqApp.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftCompile normal arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/App/AppRootView.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/App/MashreqApp.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal arm64 Compiling\ LoginView.swift,\ MoreView.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/LoginView.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/MoreView.swift (in target 'MashreqApp' from project 'MashreqApp')
+SwiftCompile normal arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/LoginView.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/MoreView.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal arm64 Compiling\ BeneficiaryViews.swift,\ CardsViews.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/BeneficiaryViews.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/CardsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftCompile normal arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/BeneficiaryViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/CardsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal arm64 Compiling\ DemoModels.swift,\ AccountsViews.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Models/DemoModels.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/AccountsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftCompile normal arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Models/DemoModels.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/AccountsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal arm64 Compiling\ SupportViews.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/SupportViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+SwiftCompile normal arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/SupportViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftEmitModule normal x86_64 Emitting\ module\ for\ MashreqApp (in target 'MashreqApp' from project 'MashreqApp')
+
+EmitSwiftModule normal x86_64 (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for MashreqApp (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftDriver\ Compilation\ Requirements MashreqApp normal arm64 com.apple.xcode.tools.swift.compiler (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name MashreqApp -Onone @/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator -F /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448f283584bf7b6f8d8b4a477ee9f70d2b0c.sdkstatcache -output-file-map /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex -sdk-module-cache-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp_const_extract_protocols.json -Xcc -iquote -Xcc /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-generated-files.hmap -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-own-target-headers.hmap -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-all-target-headers.hmap -Xcc -iquote -Xcc /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-project-headers.hmap -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources-normal/arm64 -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/arm64 -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp-Swift.h -working-directory /Users/macbookpro/Desktop/Mashreq\ /MashreqApp -experimental-emit-module-separately -disable-cmo
+
+SwiftDriverJobDiscovery normal x86_64 Emitting module for MashreqApp (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftDriver\ Compilation\ Requirements MashreqApp normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name MashreqApp -Onone @/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target x86_64-apple-ios17.0-simulator -g -module-cache-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator -F /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448f283584bf7b6f8d8b4a477ee9f70d2b0c.sdkstatcache -output-file-map /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex -sdk-module-cache-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp_const_extract_protocols.json -Xcc -iquote -Xcc /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-generated-files.hmap -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-own-target-headers.hmap -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-all-target-headers.hmap -Xcc -iquote -Xcc /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-project-headers.hmap -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources-normal/x86_64 -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/x86_64 -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp-Swift.h -working-directory /Users/macbookpro/Desktop/Mashreq\ /MashreqApp -experimental-emit-module-separately -disable-cmo
+
+SwiftCompile normal x86_64 Compiling\ LoginView.swift,\ MoreView.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/LoginView.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/MoreView.swift (in target 'MashreqApp' from project 'MashreqApp')
+SwiftCompile normal x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/LoginView.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/MoreView.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftMergeGeneratedHeaders /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/MashreqApp-Swift.h /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp-Swift.h /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp-Swift.h (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-swiftHeaderTool -arch arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp-Swift.h -arch x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp-Swift.h -o /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/MashreqApp-Swift.h
+
+Copy /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/x86_64-apple-ios-simulator.swiftmodule /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.swiftmodule (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.swiftmodule /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/x86_64-apple-ios-simulator.swiftmodule
+
+Copy /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/x86_64-apple-ios-simulator.swiftdoc /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.swiftdoc (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.swiftdoc /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/x86_64-apple-ios-simulator.swiftdoc
+
+Copy /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/x86_64-apple-ios-simulator.abi.json /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.abi.json (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.abi.json /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/x86_64-apple-ios-simulator.abi.json
+
+Copy /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/arm64-apple-ios-simulator.swiftmodule /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.swiftmodule (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.swiftmodule /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/arm64-apple-ios-simulator.swiftmodule
+
+Copy /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/arm64-apple-ios-simulator.swiftdoc /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.swiftdoc (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.swiftdoc /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/arm64-apple-ios-simulator.swiftdoc
+
+Copy /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/arm64-apple-ios-simulator.abi.json /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.abi.json (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.abi.json /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/arm64-apple-ios-simulator.abi.json
+
+Copy /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.swiftsourceinfo (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.swiftsourceinfo /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo
+
+Copy /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.swiftsourceinfo (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.swiftsourceinfo /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.swiftmodule/Project/arm64-apple-ios-simulator.swiftsourceinfo
+
+SwiftCompile normal x86_64 Compiling\ SupportViews.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/SupportViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+SwiftCompile normal x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/SupportViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal x86_64 Compiling\ BeneficiaryViews.swift,\ CardsViews.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/BeneficiaryViews.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/CardsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+SwiftCompile normal x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/BeneficiaryViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/CardsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling BeneficiaryViews.swift, CardsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+LinkAssetCatalog /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Assets.xcassets (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-linkAssetCatalog --thinned /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_output/thinned --thinned-dependencies /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_dependencies_thinned --thinned-info-plist-content /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_generated_info.plist_thinned --unthinned /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_output/unthinned --unthinned-dependencies /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_dependencies_unthinned --unthinned-info-plist-content /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_generated_info.plist_unthinned --output /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app --plist-output /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_generated_info.plist
+note: Emplaced /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app/Assets.car (in target 'MashreqApp' from project 'MashreqApp')
+note: Emplaced /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app/AppIcon76x76@2x~ipad.png (in target 'MashreqApp' from project 'MashreqApp')
+note: Emplaced /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app/AppIcon60x60@2x.png (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftDriverJobDiscovery normal arm64 Compiling DemoModels.swift, AccountsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftCompile normal x86_64 Compiling\ GeneratedAssetSymbols.swift /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftCompile normal x86_64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+ProcessInfoPlistFile /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app/Info.plist /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Info.plist (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-infoPlistUtility /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -additionalcontentfile /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/assetcatalog_generated_info.plist -o /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app/Info.plist
+
+SwiftDriverJobDiscovery normal arm64 Compiling AppRootView.swift, MashreqApp.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftCompile normal x86_64 Compiling\ AppRootView.swift,\ MashreqApp.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/App/AppRootView.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/App/MashreqApp.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftCompile normal x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/App/AppRootView.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/App/MashreqApp.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling MashreqComponents.swift, MashreqTheme.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftCompile normal x86_64 Compiling\ MashreqComponents.swift,\ MashreqTheme.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Components/MashreqComponents.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/DesignSystem/MashreqTheme.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftCompile normal x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Components/MashreqComponents.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/DesignSystem/MashreqTheme.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal x86_64 Compiling\ DemoModels.swift,\ AccountsViews.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Models/DemoModels.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/AccountsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftCompile normal x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Models/DemoModels.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/AccountsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling LoginView.swift, MoreView.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftCompile normal x86_64 Compiling\ OverviewView.swift,\ PaymentsViews.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/OverviewView.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/PaymentsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+SwiftCompile normal x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/OverviewView.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal x86_64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/PaymentsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftDriverJobDiscovery normal arm64 Compiling SupportViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftCompile normal arm64 Compiling\ OverviewView.swift,\ PaymentsViews.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/OverviewView.swift /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/PaymentsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+SwiftCompile normal arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/OverviewView.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftCompile normal arm64 /Users/macbookpro/Desktop/Mashreq\ /MashreqApp/MashreqApp/Screens/PaymentsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftDriverJobDiscovery normal x86_64 Compiling AppRootView.swift, MashreqApp.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftCompile normal arm64 Compiling\ GeneratedAssetSymbols.swift /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftCompile normal arm64 /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    
+
+SwiftDriverJobDiscovery normal x86_64 Compiling LoginView.swift, MoreView.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling DemoModels.swift, AccountsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling SupportViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftDriverJobDiscovery normal arm64 Compiling GeneratedAssetSymbols.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling MashreqComponents.swift, MashreqTheme.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling GeneratedAssetSymbols.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling BeneficiaryViews.swift, CardsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftDriverJobDiscovery normal x86_64 Compiling OverviewView.swift, PaymentsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftDriver\ Compilation MashreqApp normal x86_64 com.apple.xcode.tools.swift.compiler (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-Swift-Compilation -- /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name MashreqApp -Onone @/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target x86_64-apple-ios17.0-simulator -g -module-cache-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator -F /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448f283584bf7b6f8d8b4a477ee9f70d2b0c.sdkstatcache -output-file-map /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex -sdk-module-cache-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp_const_extract_protocols.json -Xcc -iquote -Xcc /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-generated-files.hmap -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-own-target-headers.hmap -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-all-target-headers.hmap -Xcc -iquote -Xcc /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-project-headers.hmap -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources-normal/x86_64 -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/x86_64 -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp-Swift.h -working-directory /Users/macbookpro/Desktop/Mashreq\ /MashreqApp -experimental-emit-module-separately -disable-cmo
+
+Ld /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/Binary/MashreqApp.debug.dylib normal x86_64 (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios17.0-simulator -dynamiclib -isysroot /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator -F/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator -filelist /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.LinkFileList -install_name @rpath/MashreqApp.debug.dylib -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.swiftmodule @/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp-linker-args.resp -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -framework Foundation -o /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/Binary/MashreqApp.debug.dylib
+
+ConstructStubExecutorLinkFileList /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-ExecutorLinkFileList-normal-x86_64.txt (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    construct-stub-executor-link-file-list /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/Binary/MashreqApp.debug.dylib /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-ExecutorLinkFileList-normal-x86_64.txt
+note: Using stub executor library with Swift entry point. (in target 'MashreqApp' from project 'MashreqApp')
+
+Ld /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/Binary/MashreqApp normal x86_64 (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target x86_64-apple-ios17.0-simulator -isysroot /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator -F/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/Frameworks -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-DebugDylibPath-normal-x86_64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-DebugDylibInstallName-normal-x86_64.txt -Xlinker -filelist -Xlinker /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-ExecutorLinkFileList-normal-x86_64.txt /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/Binary/MashreqApp.debug.dylib -o /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/Binary/MashreqApp
+
+SwiftDriverJobDiscovery normal arm64 Compiling OverviewView.swift, PaymentsViews.swift (in target 'MashreqApp' from project 'MashreqApp')
+
+SwiftDriver\ Compilation MashreqApp normal arm64 com.apple.xcode.tools.swift.compiler (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-Swift-Compilation -- /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name MashreqApp -Onone @/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.SwiftFileList -DDEBUG -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -target arm64-apple-ios17.0-simulator -g -module-cache-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Index.noindex/DataStore -Xcc -D_LIBCPP_HARDENING_MODE\=_LIBCPP_HARDENING_MODE_DEBUG -swift-version 6 -I /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator -F /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator -c -j8 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/SDKStatCaches.noindex/iphonesimulator26.5-23F81a-688ef53f1462e2c8f657fdc38a81448f283584bf7b6f8d8b4a477ee9f70d2b0c.sdkstatcache -output-file-map /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex -sdk-module-cache-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp_const_extract_protocols.json -Xcc -iquote -Xcc /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-generated-files.hmap -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-own-target-headers.hmap -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-all-target-headers.hmap -Xcc -iquote -Xcc /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-project-headers.hmap -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/include -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources-normal/arm64 -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources/arm64 -Xcc -I/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/DerivedSources -Xcc -DDEBUG\=1 -emit-objc-header -emit-objc-header-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp-Swift.h -working-directory /Users/macbookpro/Desktop/Mashreq\ /MashreqApp -experimental-emit-module-separately -disable-cmo
+
+Ld /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/Binary/MashreqApp.debug.dylib normal arm64 (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -dynamiclib -isysroot /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -L/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator -F/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphonesimulator -F/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator -filelist /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.LinkFileList -install_name @rpath/MashreqApp.debug.dylib -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp_lto.o -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -Xlinker -dependency_info -Xlinker /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.swiftmodule @/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp-linker-args.resp -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -framework Foundation -o /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/Binary/MashreqApp.debug.dylib
+
+CreateUniversalBinary /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app/MashreqApp.debug.dylib normal arm64\ x86_64 (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/Binary/MashreqApp.debug.dylib /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/Binary/MashreqApp.debug.dylib -output /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app/MashreqApp.debug.dylib
+
+ConstructStubExecutorLinkFileList /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-ExecutorLinkFileList-normal-arm64.txt (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    construct-stub-executor-link-file-list /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/Binary/MashreqApp.debug.dylib /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-ExecutorLinkFileList-normal-arm64.txt
+note: Using stub executor library with Swift entry point. (in target 'MashreqApp' from project 'MashreqApp')
+
+Ld /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/Binary/MashreqApp normal arm64 (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0-simulator -isysroot /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk -O0 -L/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator -F/Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/Frameworks -rdynamic -Xlinker -no_deduplicate -Xlinker -objc_abi_version -Xlinker 2 -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-DebugDylibPath-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-DebugDylibInstallName-normal-arm64.txt -Xlinker -filelist -Xlinker /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp-ExecutorLinkFileList-normal-arm64.txt /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/Binary/MashreqApp.debug.dylib -o /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/Binary/MashreqApp
+
+CreateUniversalBinary /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app/MashreqApp normal arm64\ x86_64 (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -create /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/Binary/MashreqApp /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/Binary/MashreqApp -output /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app/MashreqApp
+
+CopySwiftLibs /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-swiftStdLibTool --copy --verbose --scan-executable /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app/MashreqApp.debug.dylib --scan-folder /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app/Frameworks --scan-folder /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app/PlugIns --scan-folder /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app/SystemExtensions --scan-folder /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app/Extensions --scan-folder /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.0.sdk/System/Library/Frameworks/Foundation.framework --platform iphonesimulator --toolchain /Users/macbookpro/Library/Developer/DVTDownloads/MetalToolchain/mounts/5f4a441a6d0a11f2e9b28c67384263afe92320f7/Metal.xctoolchain --toolchain /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os --back-deploy-swift-span
+Ignoring --strip-bitcode because --sign was not passed
+
+ExtractAppIntentsMetadata (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /Users/macbookpro/Library/Developer/DVTDownloads/MetalToolchain/mounts/5f4a441a6d0a11f2e9b28c67384263afe92320f7/Metal.xctoolchain --module-name MashreqApp --sdk-root /Applications/Xcode-26.6-Final.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.5.sdk --xcode-version 17F113 --platform-family iOS --deployment-target 17.0 --bundle-identifier com.madina.mashreqdemo --output /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app --target-triple arm64-apple-ios17.0-simulator --target-triple x86_64-apple-ios17.0-simulator --binary-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app/MashreqApp --dependency-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp_dependency_info.dat --dependency-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp_dependency_info.dat --stringsdata-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --stringsdata-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.SwiftFileList --source-file-list /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.SwiftFileList --metadata-file-list /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp.DependencyMetadataFileList --static-metadata-file-list /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp.DependencyStaticMetadataFileList --swift-const-vals-list /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/arm64/MashreqApp.SwiftConstValuesFileList --swift-const-vals-list /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/Objects-normal/x86_64/MashreqApp.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2026-09-02 05:37:37.603 appintentsmetadataprocessor[20262:459072] Starting appintentsmetadataprocessor export
+2026-09-02 05:37:37.623 appintentsmetadataprocessor[20262:459072] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
+
+AppIntentsSSUTraining (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /Applications/Xcode-26.6-Final.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app/Info.plist --temp-dir-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/ssu --bundle-id com.madina.mashreqdemo --product-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app --extracted-metadata-path /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app/Metadata.appintents --metadata-file-list /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Intermediates.noindex/MashreqApp.build/Debug-iphonesimulator/MashreqApp.build/MashreqApp.DependencyMetadataFileList --source-file /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app/Info.plist --archive-ssu-assets
+2026-09-02 05:37:37.734 appintentsnltrainingprocessor[20264:459074] Parsing options for appintentsnltrainingprocessor
+2026-09-02 05:37:37.736 appintentsnltrainingprocessor[20264:459074] Starting AppIntents SSU YAML Generation
+2026-09-02 05:37:37.742 appintentsnltrainingprocessor[20264:459074] No AppShortcuts found - Skipping.
+
+RegisterExecutionPolicyException /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-RegisterExecutionPolicyException /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app
+
+Validate /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    builtin-validationUtility /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app -shallow-bundle -infoplist-subpath Info.plist
+
+Touch /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app (in target 'MashreqApp' from project 'MashreqApp')
+    cd /Users/macbookpro/Desktop/Mashreq\ /MashreqApp
+    /usr/bin/touch -c /Users/macbookpro/Library/Developer/Xcode/DerivedData/MashreqApp-VisualQA-Compile2/Build/Products/Debug-iphonesimulator/MashreqApp.app
+
+** BUILD SUCCEEDED **
+

@@ -1,0 +1,377 @@
+[
+  {
+    "code": "003",
+    "name": "ABU DHABI COMMERCIAL BANK",
+    "bic8": "ADCBAEAAXXX"
+  },
+  {
+    "code": "050",
+    "name": "ABU DHABI ISLAMIC BANK",
+    "bic8": "ABDIAEADXXX"
+  },
+  {
+    "code": "",
+    "name": "AHLI UNITED BANK LIMITED",
+    "bic8": "AUBBAEADXXX"
+  },
+  {
+    "code": "057",
+    "name": "AJMAN BANK",
+    "bic8": "AJMNAEAJXXX"
+  },
+  {
+    "code": "004",
+    "name": "AL AHLI BANK OF KUWAIT K S C",
+    "bic8": "ABKKAEADXXX"
+  },
+  {
+    "code": "053",
+    "name": "AL HILAL BANK",
+    "bic8": "HLALAEAAXXX"
+  },
+  {
+    "code": "017",
+    "name": "AL KHALIJI FRANCE S A",
+    "bic8": "LICOAEADXXX"
+  },
+  {
+    "code": "097",
+    "name": "AL MARYAH COMMUNITY BANK",
+    "bic8": "E097AEXXXXX"
+  },
+  {
+    "code": "008",
+    "name": "AL MASRAF",
+    "bic8": "ABINAEAAXXX"
+  },
+  {
+    "code": "",
+    "name": "AMEX AMERICAN EXPRESS",
+    "bic8": ""
+  },
+  {
+    "code": "007",
+    "name": "ARAB AFRICAN INTERNATIONAL BANK",
+    "bic8": "ARAIAEADXXX"
+  },
+  {
+    "code": "009",
+    "name": "ARAB BANK",
+    "bic8": "ARABAEADXXX"
+  },
+  {
+    "code": "010",
+    "name": "BANK MELLI IRAN",
+    "bic8": "MELIAEADXXX"
+  },
+  {
+    "code": "011",
+    "name": "BANK OF BARODA",
+    "bic8": "BARBAEADXXX"
+  },
+  {
+    "code": "012",
+    "name": "BANK OF SHARJAH",
+    "bic8": "SHARAEASXXX"
+  },
+  {
+    "code": "014",
+    "name": "BANQUE BANORIENT FRANCE",
+    "bic8": "BLOMAEADXXX"
+  },
+  {
+    "code": "015",
+    "name": "BANQUE MISR",
+    "bic8": "BCAIAEAAXXX"
+  },
+  {
+    "code": "019",
+    "name": "BARCLAYS BANK",
+    "bic8": "BARCAEADXXX"
+  },
+  {
+    "code": "018",
+    "name": "BNP PARIBAS",
+    "bic8": "BNPAAEAAXXX"
+  },
+  {
+    "code": "021",
+    "name": "CITIBANK NA",
+    "bic8": "CITIAEADXXX"
+  },
+  {
+    "code": "022",
+    "name": "COMMERCIAL BANK INTERNATIONAL PSC",
+    "bic8": "CLBIAEADXXX"
+  },
+  {
+    "code": "023",
+    "name": "COMMERCIAL BANK OF DUBAI",
+    "bic8": "CBDUAEADXXX"
+  },
+  {
+    "code": "016",
+    "name": "CREDIT AGRICOLE CORPORATE AND INVESTMENT BANK",
+    "bic8": "BSUIAEADXXX"
+  },
+  {
+    "code": "",
+    "name": "DEEM FINANCE",
+    "bic8": ""
+  },
+  {
+    "code": "049",
+    "name": "DEUTSCHE BANK",
+    "bic8": "DEUTAEAAXXX"
+  },
+  {
+    "code": "",
+    "name": "DIGITAL FINANCIAL SERVICES LLC E MONEY",
+    "bic8": ""
+  },
+  {
+    "code": "054",
+    "name": "DOHA BANK",
+    "bic8": "DOHBAEADXXX"
+  },
+  {
+    "code": "051",
+    "name": "DUBAI BANK",
+    "bic8": "DBXPAEADXXX"
+  },
+  {
+    "code": "024",
+    "name": "DUBAI ISLAMIC BANK",
+    "bic8": "DUIBAEADXXX"
+  },
+  {
+    "code": "025",
+    "name": "EL NILEIN BANK",
+    "bic8": "NILBAEAAXXX"
+  },
+  {
+    "code": "809",
+    "name": "EMIRATES DEVELOPMENT BANK",
+    "bic8": "EMDVAEADXXX"
+  },
+  {
+    "code": "048",
+    "name": "EMIRATES INVESTMENT BANK",
+    "bic8": "AEINAEADXXX"
+  },
+  {
+    "code": "034",
+    "name": "EMIRATES ISLAMIC BANK PJSC",
+    "bic8": "MEBLAEADXXX"
+  },
+  {
+    "code": "026",
+    "name": "EMIRATESNBD BANK PJSC",
+    "bic8": "EBILAEADXXX"
+  },
+  {
+    "code": "",
+    "name": "FEDERAL TAX OF AUTHORITY",
+    "bic8": ""
+  },
+  {
+    "code": "081",
+    "name": "FINANCE HOUSE P J S C",
+    "bic8": "FHOUAEADXXX"
+  },
+  {
+    "code": "035",
+    "name": "FIRST ABU DHABI BANK",
+    "bic8": "NBADAEAAXXX"
+  },
+  {
+    "code": "092",
+    "name": "GULF INTERNATIONAL BANK",
+    "bic8": "GULFAEAAXXX"
+  },
+  {
+    "code": "029",
+    "name": "HABIB BANK AG ZURICH",
+    "bic8": "HBZUAEADXXX"
+  },
+  {
+    "code": "028",
+    "name": "HABIB BANK LIMITED",
+    "bic8": "HABBAEADXXX"
+  },
+  {
+    "code": "020",
+    "name": "HSBC BANK MIDDLE EAST",
+    "bic8": "BBMEAEADXXX"
+  },
+  {
+    "code": "043",
+    "name": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA",
+    "bic8": "ICBKAEAAXXX"
+  },
+  {
+    "code": "030",
+    "name": "INVESTBANK PSC",
+    "bic8": "IBTFAEASXXX"
+  },
+  {
+    "code": "031",
+    "name": "JANATA BANK",
+    "bic8": "JANBAEAAXXX"
+  },
+  {
+    "code": "",
+    "name": "KOREAN EXCHANGE BANK",
+    "bic8": "KOEXAEADXXX"
+  },
+  {
+    "code": "267",
+    "name": "LARI EXCHANGE",
+    "bic8": "LAEEAEAAXXX"
+  },
+  {
+    "code": "",
+    "name": "LLOYDS TSB",
+    "bic8": "LOYDAEADXXX"
+  },
+  {
+    "code": "",
+    "name": "MAF FINANCE",
+    "bic8": ""
+  },
+  {
+    "code": "",
+    "name": "MCB BANK LIMITED",
+    "bic8": "MUCBAEADXXX"
+  },
+  {
+    "code": "035",
+    "name": "NATIONAL BANK OF ABU DHABI",
+    "bic8": "NBADAEAAXXX"
+  },
+  {
+    "code": "036",
+    "name": "NATIONAL BANK OF BAHRAIN",
+    "bic8": "NBOBAEAAXXX"
+  },
+  {
+    "code": "038",
+    "name": "NATIONAL BANK OF FUJAIRAH",
+    "bic8": "NBFUAEAFXXX"
+  },
+  {
+    "code": "056",
+    "name": "NATIONAL BANK OF KUWAIT",
+    "bic8": "NBOKAEADXXX"
+  },
+  {
+    "code": "039",
+    "name": "NATIONAL BANK OF OMAN",
+    "bic8": "NBOMAEADXXX"
+  },
+  {
+    "code": "040",
+    "name": "NATIONAL BANK OF RAS AL KHAIMAH",
+    "bic8": "NRAKAEAKXXX"
+  },
+  {
+    "code": "042",
+    "name": "NATIONAL BANK OF UMM AL QAIWAIN",
+    "bic8": "UMMQAEADXXX"
+  },
+  {
+    "code": "",
+    "name": "NETWORK INTERNATIONAL LLC",
+    "bic8": ""
+  },
+  {
+    "code": "052",
+    "name": "NOOR ISLAMIC BANK",
+    "bic8": "NISLAEADXXX"
+  },
+  {
+    "code": "",
+    "name": "OASIS EXCHANGE",
+    "bic8": ""
+  },
+  {
+    "code": "",
+    "name": "PAYMENTS REFUNDS FOR CB SERVICES",
+    "bic8": "CBAUAEAAXXX"
+  },
+  {
+    "code": "",
+    "name": "PAY TEN SERVICE PROVIDER LLC",
+    "bic8": ""
+  },
+  {
+    "code": "",
+    "name": "PAYBY TECHNOLOGIES PROJECT LLC",
+    "bic8": ""
+  },
+  {
+    "code": "005",
+    "name": "RAFIDAIN BANK",
+    "bic8": "RAFBAEADXXX"
+  },
+  {
+    "code": "132",
+    "name": "RUYA COMMUNITY ISLAMIC BANK LLC",
+    "bic8": "E132AEXXXXX"
+  },
+  {
+    "code": "055",
+    "name": "SAMBA FINANCIAL GROUP",
+    "bic8": "SAMBAEADXXX"
+  },
+  {
+    "code": "041",
+    "name": "SHARJAH ISLAMIC BANK",
+    "bic8": "NBSHAEASXXX"
+  },
+  {
+    "code": "113",
+    "name": "SIRAJ FINANCE PJSC",
+    "bic8": "SRAJAEAAXXX"
+  },
+  {
+    "code": "044",
+    "name": "STANDARD CHARTERED BANK",
+    "bic8": "SCBLAEADXXX"
+  },
+  {
+    "code": "",
+    "name": "THE BANK OF TOKYO MITSUBISHI UFJ LTD",
+    "bic8": "BOTKAEADXXX"
+  },
+  {
+    "code": "002",
+    "name": "THE ROYAL BANK OF SCOTLAND N V",
+    "bic8": "ABNAAEADXXX"
+  },
+  {
+    "code": "045",
+    "name": "UNION NATIONAL BANK",
+    "bic8": "UNBEAEAAXXX"
+  },
+  {
+    "code": "046",
+    "name": "UNITED ARAB BANK",
+    "bic8": "UARBAEAAXXX"
+  },
+  {
+    "code": "047",
+    "name": "UNITED BANK LTD",
+    "bic8": "UNILAEADXXX"
+  },
+  {
+    "code": "086",
+    "name": "WIO BANK",
+    "bic8": "WIOBAEADXXX"
+  },
+  {
+    "code": "096",
+    "name": "ZAND BANK",
+    "bic8": "ZANDAEAAXXX"
+  }
+]
